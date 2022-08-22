@@ -9,12 +9,12 @@ public class SelectionSort {
     static void sort(int[] arr){
         for (int i = 0; i < arr.length ; i++) {
             int last = arr.length-1-i;
-            int largest = getMaxIndex(arr,0,last );
+            int largest = getMaxIndex(arr,last );
             swap(arr, largest, last);
         }
     }
 
-    static int getMaxIndex(int[] arr, int start, int last){
+    static int getMaxIndex(int[] arr, int last){
         int largest = 0;
         for (int i = 0; i <= last ; i++) {
             if (arr[largest] < arr[i]){
