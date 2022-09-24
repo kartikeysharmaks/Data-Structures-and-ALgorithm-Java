@@ -6,12 +6,12 @@ public class Hashing2 {
         //declaration and initialization of Hashmap
         HashMap<String,Integer> map = new HashMap<>();
 
-        //put method to add key value pairs in the map
+        //put method to add element in the form of key value pairs in the map
         map.put("China",150);
         map.put("India", 130);
         map.put("US",50);
 
-        //to print elements and its value inside the map
+        //to print all the elements and its value inside the map
         System.out.println(map);
 
         //get method to get a particular element and its value by its key
