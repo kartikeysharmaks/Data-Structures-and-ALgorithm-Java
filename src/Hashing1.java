@@ -17,12 +17,15 @@ public class Hashing1 {
         //to print all the elements of the set
         System.out.println(set);
 
-        //to check whether set contain the target element or not - this will return the boolean value(true/false)
+        //contains method to check whether set contain the target element or not - this will return the boolean value(true/false)
         System.out.println(set.contains(5));
         System.out.println(set.contains(6));
 
-        //to remove any element from set
+        //remove method to remove any element from set
         set.remove(4);
         System.out.println(set);
+
+        //size method to check the size of the set
+        System.out.println(set.size());
     }
 }
